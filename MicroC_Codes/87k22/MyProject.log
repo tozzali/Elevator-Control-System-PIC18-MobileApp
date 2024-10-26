@@ -1,0 +1,12 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F87K22 -DL -O11111114 -fo8 -N"C:\Users\beast\OneDrive\Masaüstü\87k22\MyProject.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Users\beast\OneDrive\Masaüstü\87k22\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" "_87k22.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_ADC_K22.mcl" "__Lib_PWM_K90.mcl" "__Lib_UART_c67g12.mcl" "__Lib_GlcdFonts.mcl" "__Lib_Glcd.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl"	 
+hint: 0	1139	Available RAM: 3841 [bytes], Available ROM: 131072 [bytes]	 
+diagnostics: 0	122	Compilation Started	_87k22.c
+warning: 309	1509	Generated baud rate is 9615 bps (error = 0.16 percent)	_87k22.c
+diagnostics: 520	123	Compiled Successfully	_87k22.c
+diagnostics: 0	127	All files Compiled in 172 ms	 
+hint: 0	1144	Used RAM (bytes): 236 (6%)  Free RAM (bytes): 3605 (94%)	Used RAM (bytes): 236 (6%)  Free RAM (bytes): 3605 (94%)
+hint: 0	1144	Used ROM (bytes): 16136 (12%)  Free ROM (bytes): 114936 (88%)	Used ROM (bytes): 16136 (12%)  Free ROM (bytes): 114936 (88%)
+diagnostics: 0	125	Project Linked Successfully	MyProject.mcppi
+diagnostics: 0	128	Linked in 78 ms	 
+diagnostics: 0	129	Project 'MyProject.mcppi' completed: 297 ms	 
+diagnostics: 0	103	Finished successfully: 01 Haz 2023, 22:36:41	MyProject.mcppi

@@ -1,0 +1,36 @@
+main
+	__CC2DW
+	Glcd_Init
+		Strobe
+			Delay_10us
+	ADC_Init
+	UART1_Init
+	UART1_Write_Text
+		UART1_Write
+	UART1_Data_Ready
+	UART1_Read
+	Glcd_Image
+		Glcd_Set_Side
+		Glcd_Set_Page
+			Strobe
+				Delay_10us
+		Glcd_Set_X
+			Strobe
+				Delay_10us
+		Glcd_Write_Data
+			Strobe
+				Delay_10us
+	choice_detect
+	motor_up
+		PWM4_Init
+		PWM4_Start
+		PWM4_Set_Duty
+			Mul_16X16_U
+		PWM4_Stop
+	motor_down
+		PWM5_Init
+		PWM5_Start
+		PWM5_Set_Duty
+			Mul_16X16_U
+		PWM5_Stop
+interrupt
